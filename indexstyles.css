@@ -1,19 +1,195 @@
 .flex-container {
-    min-height: 300px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: sienna;
-    align-content: center;
-    justify-content: center;
-    padding: 0px;
+    font-family: Lexend;
 }
 
-.flex-container > div {
-    width: 100px;
-    margin: 10px;
-    background-color: aqua;
+.left {
+    width: 50%;
+    background: rgba(33, 32, 32, 0.9);
+    justify-content: center;
+    align-content: top;
     text-align: center;
-    line-height: 75px;
-    font-size: 30ox;
+    font-size: 40px;
+}
+
+.left:hover {
+    flex-grow: 5;
+}
+
+.left h {
+    color: white;
+}
+
+.right {
+    width: 50%;
+    background: rgba(33, 32, 32, 0.9);
+    justify-content: center;
+    align-content: top;
+    text-align: center;
+    font-size: 40px;
+}
+
+.right h {
+    color: white;
+}
+
+.lefter {
+    font-size: 15px;
+    align-content: auto;
+    justify-content: auto;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.lefter li {
+    color: white;
+}
+
+.righter {
+    font-size: 15px;
+}
+
+.righter p {
+    color: white;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 80px;
+}
+
+.projects {
+    display: flex;
+    background: rgba(33, 32, 32, 0.9);
+    text-align: center;
+}
+
+.projects h {
+    font-size: 40px;
+    font-family: Lexend;
+    color: white;
+    margin-left: 680px;
+}
+
+.projects img {
+    margin-left: -355px;
+}
+
+.projecttext {
+    display: flex;
+    background: rgba(33, 32, 32, 0.9);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+    font-family: Lexend;
+    font-size: 15px;
+}
+
+.projecttext a {
+    color: gold;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Lexend;
+}
+
+.topnavigation {
+    background: rgba(33, 32, 32, 1);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.topnavigation a {
+    float: left;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Lexend;
+}
+
+.topnavigation a:hover {
+    background-color: rgb(225, 220, 220);
+    color: black;
+}
+
+.topnavigation img {
+    width: 36px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+}
+
+.topnavigation p {
+    float: left;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Lexend;
+}
+
+body {
+    margin: 0px;
+    background-image: url('iceminimalist.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.botnavigation {
+    background: rgba(33, 32, 32, 1);
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    font-family: Lexend;
+    font-size: 30px;
+}
+
+.botnavigation a {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Lexend;
+    padding: 10px;
+}
+
+.botnavigation a:hover {
+    background-color: rgb(225, 220, 220);
+    color: black;
+}
+
+.botnavigation img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.botnavigation h {
+    padding-left: 100px;
+    margin-top: 100px;
+    color: white;
+    white-space: pre-line;
+}
+
+.botnavigation p {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Lexend;
+    padding-left: 10px;
 }

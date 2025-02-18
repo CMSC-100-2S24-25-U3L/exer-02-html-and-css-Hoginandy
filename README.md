@@ -1,1 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pBNUHphn)
+Jamison, Leon Emmanuel O.
+2023 - 15530
+BS Computer Science
+Live Website Link: https://cmsc-100-2s24-25-u3l.github.io/exer-02-html-and-css-Hoginandy/
